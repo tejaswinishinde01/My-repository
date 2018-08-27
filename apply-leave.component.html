@@ -1,0 +1,113 @@
+
+<html>
+  <body>
+<div class="rows" style="width:auto">
+    <div class="columns" style="background-color: rgb(44, 154, 228); margin: 5px;">
+      <br>
+      <tr>
+    <td>Employee ID</td>
+     <td>  NIPL321</td>
+    </tr><br>
+  
+    <tr>
+        <td>Employee Name</td>
+         <td>  ABCDE</td>
+        </tr><br>
+        <tr>
+            <td>Designation</td>
+             <td>Trainee Engineer</td>
+            </tr><br>
+  
+
+    </div>
+    <div class="columns" style="background-color: rgb(44, 154, 228);margin: 5px;">
+
+        <br>
+        <tr>
+      <td>Department</td>
+       <td> XYZ</td>
+      </tr><br>
+    
+      <tr>
+          <td>Reporting To </td>
+           <td>  PQR</td>
+          </tr><br>
+          <tr>
+              <td>HOD</td>
+               <td>-</td>
+              </tr><br>
+    </div>
+    <div class="columns" style="background-color: rgb(44, 154, 228);margin: 5px;">
+        
+        <br>
+        <tr>
+      <td>Email</td>
+       <td>  saqw@gdk.vbcn</td>
+      </tr><br>
+    
+      <tr>
+          <td>Contact no</td>
+           <td> 7894561230 </td>
+          </tr><br>
+          <tr>
+              <td></td>
+               <td>-</td>
+              </tr><br>
+    </div>
+  </div>
+
+  <!-- <form>
+    <p>Leave Details</p>
+
+    <label for="s1">Leave Type</label><br><br>
+    <select required id="s1" style="width: 250px;border-color: green;height: 40px; " (change)="navigateTo($event.target.value)" >
+     
+        <option value="select"  >Select Leave Type</option>
+            <option value="privilegeLeave" >Privilege Leave</option>
+            <option value="optionalLeave" >Optional Leave</option>
+           
+          </select>
+
+          <table id="db" align="right" >
+              <tr>
+                <th>Leave Type</th>
+                <th>Current Balance</th>
+                <th>Accumulation</th>
+                <th>Total</th>
+              </tr>
+              </table>
+  </form> -->
+
+
+
+<form>
+
+  <div class="form-group">
+      <label for="s1">Leave Type</label><br><br>
+      <select id="s1" style="width: 250px;border-color: green;height: 40px; " (change)="navigateTo($event.target.value)" class="form-group" >
+
+          <option value="select"  >Select Leave Type</option>
+          <option value="privilegeLeave" class="form-control" >Privilege Leave</option>
+          <option value="optionalLeave" class="form-control">Optional Leave</option>
+         
+      </select>
+  </div>
+
+</form>
+
+<!-- <table id="db" align="right" >
+    <tr>
+      <th>Leave Type</th>
+      <th>Current Balance</th>
+      <th>Accumulation</th>
+      <th>Total</th>
+    </tr>
+    </table> -->
+
+
+
+
+<br><br>
+  
+</body>
+</html>
